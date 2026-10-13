@@ -265,5 +265,13 @@
     "delivery": "signup notification to the site owner\u2019s Outlook inbox not verified"
   },
   "javascript_errors": [],
-  "local_resource_failures": []
+  "local_resource_failures": [],
+  "mobile_additional_checks": {
+    "requested_section_removed": "passed",
+    "paired_hero_actions": "passed",
+    "visible_header_logo": "passed",
+    "newsletter_input_font_size_16px": "passed",
+    "escape_menu_dismissal": "passed",
+    "outside_tap_menu_dismissal": "passed"
+  }
 }

@@ -253,3 +253,140 @@ body {
   .site-header .brand span { font-size: 1.3rem; letter-spacing: 0; }
   .section-kicker::after { max-width: 40px; }
 }
+
+/* Mobile layout: a compact introduction, comfortable controls, and photo pairs. */
+@media (max-width: 800px) {
+  .container { width: calc(100% - 40px); }
+  .nav-wrap { min-height: 76px; gap: 12px; }
+  .brand { min-width: 0; gap: 10px; }
+  .brand img { width: 30px; height: 44px; }
+  .site-header .brand span {
+    max-width: 155px;
+    font-size: 1.4rem;
+    line-height: 1.05;
+    letter-spacing: 0;
+  }
+
+  .nav-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-width: 78px;
+    min-height: 44px;
+    padding: 10px 12px;
+    border: 1px solid var(--stonewall-gold);
+    border-radius: 2px;
+    font-size: .75rem;
+    font-weight: 600;
+  }
+  .nav-toggle::before {
+    content: "";
+    width: 14px;
+    height: 11px;
+    border-top: 1px solid currentColor;
+    border-bottom: 1px solid currentColor;
+    background: linear-gradient(currentColor, currentColor) center / 100% 1px no-repeat;
+  }
+  .nav-toggle[aria-expanded="true"]::before {
+    content: "×";
+    height: 18px;
+    border: 0;
+    background: none;
+    font-size: 22px;
+    line-height: 16px;
+  }
+  .site-nav {
+    top: 100%;
+    padding: 12px 20px 20px;
+    gap: 0;
+    box-shadow: 0 12px 20px color-mix(in srgb, var(--stonewall-blue) 12%, transparent);
+  }
+  .site-nav a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 48px;
+    padding: 10px 12px;
+    border-bottom: 1px solid color-mix(in srgb, var(--stonewall-gold) 40%, transparent);
+    font-size: .9rem;
+  }
+  .site-nav .nav-cta { margin-top: 12px; justify-content: center; }
+
+  .hero { padding: 36px 0 48px; }
+  .hero-grid { gap: 0; }
+  .hero-copy { max-width: 640px; margin: 0 auto; }
+  .hero-logo-wrap { display: none; }
+  .hero-copy h1 {
+    margin: 16px 0 20px;
+    font-size: clamp(2.1rem, 8.8vw, 2.9rem);
+    line-height: 1.1;
+    letter-spacing: -.018em;
+    text-wrap: balance;
+  }
+  .hero-text { font-size: 1rem; line-height: 1.7; max-width: 44ch; }
+  .hero-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 24px 0 0;
+  }
+  .hero-actions .button { min-height: 50px; padding: 10px 12px; font-size: .75rem; }
+  .hero::after { inset: 12px 8px 20px; outline: 0; }
+
+  .section { padding: 48px 0; scroll-margin-top: 92px; }
+  h2 { font-size: clamp(2rem, 8vw, 2.6rem); line-height: 1.12; text-wrap: balance; }
+  .two-column, .jackson-grid, .heritage-grid, .contact-grid, .letter-grid { gap: 26px; }
+  .fellowship-intro { margin-bottom: 26px; }
+  .fellowship-intro > p { margin-top: 18px; }
+  .fellowship-photos { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  .fellowship-photo { padding: 6px; }
+  .fellowship-photo img { height: clamp(190px, 56vw, 340px); object-fit: cover; }
+  .jackson-image { width: min(220px, 75%); margin: 0 auto; }
+  .jackson-image img { height: 260px; }
+  .heritage-portraits { gap: 12px; }
+  .heritage-portrait-card { padding: 12px 10px; }
+  .heritage-portrait-card img { height: 130px; }
+  .heritage-portrait-card figcaption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 2.8em;
+    font-size: .86rem;
+    line-height: 1.4;
+  }
+  .legacy-portrait-section { padding: 48px 0; }
+  .historic-homes-grid { grid-template-columns: 1fr 1fr; gap: 14px; }
+  .historic-home-card { padding: 14px 10px; }
+  .historic-home-card figcaption { font-size: .72rem; line-height: 1.5; letter-spacing: .07em; }
+
+  .letter-form { padding: 24px; }
+  .form-row { grid-template-columns: 1fr; gap: 0; }
+  .letter-form input[type="text"], .letter-form input[type="email"] {
+    min-height: 48px;
+    font-size: 16px;
+    padding: 12px;
+  }
+  .consent-row input { width: 18px; height: 18px; flex-shrink: 0; }
+  .contact-card { padding: 24px; }
+  .button { min-height: 50px; }
+  .text-link:not(.article-back) { display: inline-flex; align-items: center; min-height: 44px; }
+  .articles-intro { margin-bottom: 26px; }
+  .archive-heading { padding-top: 40px; padding-bottom: 28px; }
+  .archive-list-section { padding-top: 36px; padding-bottom: 48px; }
+  .article-heading h1 { font-size: clamp(2rem, 8.7vw, 2.65rem); line-height: 1.12; text-wrap: balance; }
+  .article-body { font-size: 1.1rem; }
+  .site-footer { padding: 40px 0; }
+  .footer-grid { gap: 22px; }
+  .footer-title { font-size: 1.8rem; }
+  .footer-social p { margin: 0; }
+  .footer-social a { display: inline-flex; align-items: center; min-height: 44px; }
+  .footer-contact a { display: block; min-height: 44px; overflow-wrap: anywhere; }
+}
+
+@media (max-width: 360px) {
+  .site-header .brand span { max-width: 135px; font-size: 1.25rem; }
+  .hero-actions .button { padding-inline: 8px; font-size: .7rem; }
+  .fellowship-photos { grid-template-columns: 1fr; }
+  .fellowship-photo img { height: 230px; }
+}

@@ -2,37 +2,49 @@
 
 ## View the redesign
 
-Updated with a clearer serif nameplate, textured parchment and colonial tan backgrounds, and finer colonial molding, panel edges, and gold rules. White interface surfaces have been replaced with warm tones derived from the approved ivory and gold palette.
+The Home, Church, and Community decorative section has been removed as requested. The mobile layout now has a compact hero, paired action buttons, larger menu targets, balanced photo pairs, and comfortable newsletter fields. Below-the-fold images load lazily. The parchment palette and colonial trim remain.
 
-These are actual Chromium browser screenshots of the implemented website, not generated mockups. Open an image to see it at full size. The live stonewallfellowship.com website has not been modified.
-
-### Desktop homepage
-
-![Desktop browser preview](preview/desktop.png)
-
-### Gatherings
-
-![Gatherings browser preview](preview/gatherings.png)
-
-### Newsletter and parchment details
-
-![Newsletter browser preview](preview/newsletter.png)
-
-### Article archive
-
-![Article archive browser preview](preview/articles.png)
+These are actual Chromium browser screenshots of the implemented website. The live website has not been changed by this update.
 
 ### Mobile homepage
 
 ![Mobile browser preview](preview/mobile.png)
 
-[View the complete homepage screenshot](preview/full-homepage.png)
+[View the complete mobile homepage](preview/mobile-full-homepage.png)
 
-The nameplate now uses a clearer serif treatment at the user’s request. The shield is a derived preview cutout; original master artwork is needed for exact logo fidelity at publication.
+<details>
+<summary>Mobile menu, gatherings, and newsletter</summary>
+
+![Mobile menu](preview/mobile-menu.png)
+
+![Mobile gatherings](preview/mobile-gatherings.png)
+
+![Mobile newsletter](preview/mobile-newsletter.png)
+
+</details>
+
+### Desktop homepage
+
+![Desktop browser preview](preview/desktop.png)
+
+<details>
+<summary>Desktop gatherings, newsletter, and articles</summary>
+
+![Gatherings browser preview](preview/gatherings.png)
+
+![Newsletter browser preview](preview/newsletter.png)
+
+![Article archive browser preview](preview/articles.png)
+
+</details>
+
+[View the complete desktop homepage](preview/full-homepage.png)
+
+The shield is the previously documented derived preview cutout; original master artwork is needed for exact logo fidelity.
 
 ---
 
-A responsive editorial redesign of stonewallfellowship.com. Preserves the public homepage content, all seven essays, original imagery, newsletter form destination, email address, and social links captured on October 12, 2026.
+A responsive editorial redesign of stonewallfellowship.com. Preserves all seven essays, newsletter form destination, email address, social links, and the remaining homepage content captured on October 12, 2026. The Home, Church, and Community section was deliberately removed at the user’s request; its original image files are retained in the repository.
 
 ## Netlify upload
 
@@ -52,7 +64,7 @@ Open the root page or `/articles/` using your development browser. The site is s
 
 ## Validation
 
-[Read the complete content and functional audit](VALIDATION.md). All nine original pages retain their text and links; 36 page/viewport checks and 115 internal link/anchor checks passed. Real newsletter delivery remains unverified.
+[Read the complete content and functional audit](VALIDATION.md). All nine pages remain available. Apart from the requested Home, Church, and Community section removal, original text and links are retained. Browser checks cover desktop, tablet, mobile, and small mobile layouts. Real newsletter delivery remains unverified.
 
 Verified homepage rendering at desktop and mobile widths, image loading, mobile menu opening and closing, required newsletter fields, and all seven article pages. Newsletter delivery was not tested, as doing so would send a real signup. The original FormSubmit endpoint is retained.
 

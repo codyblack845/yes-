@@ -1,5 +1,7 @@
 # Upload to Netlify
 
+This package includes the updated mobile layout and the requested removal of the Home, Church, and Community decorative section.
+
 This is a static website. No dependency installation, build command, database, or server configuration is required for a manual upload.
 
 1. Download **netlify-upload.zip** from this repository.

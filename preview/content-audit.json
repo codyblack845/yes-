@@ -1,4 +1,6 @@
 {
+  "comparison_baseline": "original site snapshot",
+  "requested_change": "Home, Church, Community decorative section removed at user request",
   "pages": [
     "/",
     "/articles/",
@@ -16,81 +18,108 @@
     {
       "page": "index.html",
       "original_words": 675,
-      "redesign_words": 681,
+      "requested_removed_words": 3,
+      "expected_words_after_requested_changes": 672,
+      "redesign_words": 678,
       "original_links": 18,
       "original_images": 17,
+      "requested_removed_illustrations": 3,
       "approved_logo_replacements": 2,
       "forms_preserved": 1
     },
     {
       "page": "articles/index.html",
       "original_words": 520,
+      "requested_removed_words": 0,
+      "expected_words_after_requested_changes": 520,
       "redesign_words": 520,
       "original_links": 28,
       "original_images": 2,
+      "requested_removed_illustrations": 0,
       "approved_logo_replacements": 1,
       "forms_preserved": 0
     },
     {
       "page": "articles/education-in-early-america-part-ii/index.html",
       "original_words": 2256,
+      "requested_removed_words": 0,
+      "expected_words_after_requested_changes": 2256,
       "redesign_words": 2256,
       "original_links": 15,
       "original_images": 2,
+      "requested_removed_illustrations": 0,
       "approved_logo_replacements": 1,
       "forms_preserved": 0
     },
     {
       "page": "articles/education-in-early-america-part-i/index.html",
       "original_words": 1796,
+      "requested_removed_words": 0,
+      "expected_words_after_requested_changes": 1796,
       "redesign_words": 1796,
       "original_links": 15,
       "original_images": 2,
+      "requested_removed_illustrations": 0,
       "approved_logo_replacements": 1,
       "forms_preserved": 0
     },
     {
       "page": "articles/the-context-of-crossing-the-delaware/index.html",
       "original_words": 703,
+      "requested_removed_words": 0,
+      "expected_words_after_requested_changes": 703,
       "redesign_words": 703,
       "original_links": 15,
       "original_images": 2,
+      "requested_removed_illustrations": 0,
       "approved_logo_replacements": 1,
       "forms_preserved": 0
     },
     {
       "page": "articles/a-time-to-build/index.html",
       "original_words": 308,
+      "requested_removed_words": 0,
+      "expected_words_after_requested_changes": 308,
       "redesign_words": 308,
       "original_links": 15,
       "original_images": 1,
+      "requested_removed_illustrations": 0,
       "approved_logo_replacements": 1,
       "forms_preserved": 0
     },
     {
       "page": "articles/robert-e-lee-americas-second-washington/index.html",
       "original_words": 1212,
+      "requested_removed_words": 0,
+      "expected_words_after_requested_changes": 1212,
       "redesign_words": 1212,
       "original_links": 15,
       "original_images": 2,
+      "requested_removed_illustrations": 0,
       "approved_logo_replacements": 1,
       "forms_preserved": 0
     },
     {
       "page": "articles/why-start-this-group/index.html",
       "original_words": 530,
+      "requested_removed_words": 0,
+      "expected_words_after_requested_changes": 530,
       "redesign_words": 530,
       "original_links": 15,
       "original_images": 1,
+      "requested_removed_illustrations": 0,
       "approved_logo_replacements": 1,
       "forms_preserved": 0
     },
     {
       "page": "articles/why-stonewall/index.html",
       "original_words": 677,
+      "requested_removed_words": 0,
+      "expected_words_after_requested_changes": 677,
       "redesign_words": 677,
       "original_links": 15,
       "original_images": 2,
+      "requested_removed_illustrations": 0,
       "approved_logo_replacements": 1,
       "forms_preserved": 0
     }

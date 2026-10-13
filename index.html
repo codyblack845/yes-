@@ -5,8 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="A fellowship forged in piety, bound by duty, and devoted to the good of our homeland.">
   <title>Stonewall Fellowship</title>
-  <link rel="preload" as="image" href="assets/fellowship-gathering.jpeg" fetchpriority="high">
-  <link rel="preload" as="image" href="assets/fellowship-table.jpeg" fetchpriority="high">
   <link rel="icon" type="image/png" href="assets/shield-cutout-preview.png">
   
   
@@ -23,7 +21,7 @@
         <img src="assets/shield-cutout-preview.png" alt="Stonewall Fellowship cross emblem">
         <span>Stonewall Fellowship</span>
       </a>
-      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false" aria-controls="site-nav">Menu</button>
       <nav id="site-nav" class="site-nav" aria-label="Primary navigation">
         <a href="#mission">Mission</a>
         <a href="#about-jackson">About Jackson</a>
@@ -69,14 +67,6 @@
       </div>
     </section>
 
-    <section class="section visual-band">
-      <div class="container visual-grid">
-        <figure class="visual-card"><img src="assets/southern-home.png" alt="Engraving of a traditional Southern home"><figcaption>Home</figcaption></figure>
-        <figure class="visual-card"><img src="assets/church.png" alt="Engraving of a historic church"><figcaption>Church</figcaption></figure>
-        <figure class="visual-card"><img src="assets/main-street.png" alt="Engraving of a traditional small-town main street"><figcaption>Community</figcaption></figure>
-      </div>
-    </section>
-
     <section id="gatherings" class="section fellowship-section" aria-labelledby="gatherings-title">
       <div class="container">
         <div class="fellowship-intro">
@@ -88,10 +78,10 @@
         </div>
         <div class="fellowship-photos">
           <figure class="fellowship-photo fellowship-photo-gathering">
-            <img src="assets/fellowship-gathering.jpeg" alt="Men gathered for conversation and dinner at Stonewall Fellowship" width="1536" height="2048" loading="eager" fetchpriority="high" decoding="sync">
+            <img src="assets/fellowship-gathering.jpeg" alt="Men gathered for conversation and dinner at Stonewall Fellowship" width="1536" height="2048" loading="lazy" decoding="async">
           </figure>
           <figure class="fellowship-photo fellowship-photo-table">
-            <img src="assets/fellowship-table.jpeg" alt="Tables prepared for a Stonewall Fellowship dinner" width="1152" height="2048" loading="eager" fetchpriority="high" decoding="sync">
+            <img src="assets/fellowship-table.jpeg" alt="Tables prepared for a Stonewall Fellowship dinner" width="1152" height="2048" loading="lazy" decoding="async">
           </figure>
         </div>
       </div>
@@ -100,7 +90,7 @@
     <section id="about-jackson" class="section jackson-section">
       <div class="container jackson-grid">
         <div class="jackson-image">
-          <img src="assets/jackson-original-photo.jpg" alt="April 1863 photograph of Thomas J. Stonewall Jackson in Confederate uniform">
+          <img src="assets/jackson-original-photo.jpg" alt="April 1863 photograph of Thomas J. Stonewall Jackson in Confederate uniform" loading="lazy" decoding="async">
         </div>
         <div class="jackson-copy">
           <p class="section-kicker">The Man Behind the Name</p>
@@ -122,19 +112,19 @@
         </div>
         <div class="heritage-portraits" aria-label="Four men of the American tradition">
           <figure class="heritage-portrait-card">
-            <img src="assets/portrait-washington.png" alt="Engraved portrait of George Washington">
+            <img src="assets/portrait-washington.png" alt="Engraved portrait of George Washington" loading="lazy" decoding="async">
             <figcaption>George Washington</figcaption>
           </figure>
           <figure class="heritage-portrait-card">
-            <img src="assets/portrait-robert-e-lee.png" alt="Engraved portrait of Robert E. Lee">
+            <img src="assets/portrait-robert-e-lee.png" alt="Engraved portrait of Robert E. Lee" loading="lazy" decoding="async">
             <figcaption>Robert E. Lee</figcaption>
           </figure>
           <figure class="heritage-portrait-card">
-            <img src="assets/portrait-davy-crockett.png" alt="Engraved portrait of Davy Crockett">
+            <img src="assets/portrait-davy-crockett.png" alt="Engraved portrait of Davy Crockett" loading="lazy" decoding="async">
             <figcaption>Davy Crockett</figcaption>
           </figure>
           <figure class="heritage-portrait-card">
-            <img src="assets/portrait-andrew-jackson.png" alt="Engraved portrait of Andrew Jackson">
+            <img src="assets/portrait-andrew-jackson.png" alt="Engraved portrait of Andrew Jackson" loading="lazy" decoding="async">
             <figcaption>Andrew Jackson</figcaption>
           </figure>
         </div>
@@ -149,19 +139,19 @@
         </div>
         <div class="historic-homes-grid">
           <figure class="historic-home-card">
-            <img src="assets/silhouette-mount-vernon.png" alt="Architectural silhouette of Mount Vernon">
+            <img src="assets/silhouette-mount-vernon.png" alt="Architectural silhouette of Mount Vernon" loading="lazy" decoding="async">
             <figcaption>Mount Vernon</figcaption>
           </figure>
           <figure class="historic-home-card">
-            <img src="assets/silhouette-monticello.png" alt="Architectural silhouette of Monticello">
+            <img src="assets/silhouette-monticello.png" alt="Architectural silhouette of Monticello" loading="lazy" decoding="async">
             <figcaption>Monticello</figcaption>
           </figure>
           <figure class="historic-home-card">
-            <img src="assets/hermitage-front-engraving.png" alt="Front architectural engraving of The Hermitage">
+            <img src="assets/hermitage-front-engraving.png" alt="Front architectural engraving of The Hermitage" loading="lazy" decoding="async">
             <figcaption>The Hermitage</figcaption>
           </figure>
           <figure class="historic-home-card">
-            <img src="assets/red-hill-engraving.png" alt="Architectural engraving of Patrick Henry's Red Hill">
+            <img src="assets/red-hill-engraving.png" alt="Architectural engraving of Patrick Henry's Red Hill" loading="lazy" decoding="async">
             <figcaption>Patrick Henry's Red Hill</figcaption>
           </figure>
         </div>

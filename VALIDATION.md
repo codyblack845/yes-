@@ -1,10 +1,10 @@
 # Verification report
 
-Checked against the live public Stonewall Fellowship website on October 12, 2026.
+Checked against the saved original public Stonewall Fellowship website snapshot from October 12, 2026, accounting for the subsequent requested section removal.
 
 ## Content retained
 
-The comparison covered every page reachable through the original website’s internal links: the homepage, article archive, and all seven complete essays (nine pages total). No original visible page text was deleted or replaced. All original link targets, section IDs, contact details, social links, newsletter fields, and form settings are retained. The homepage adds a skip link and a Weekly Letter shortcut.
+The comparison covered every page reachable through the original website’s internal links: the homepage, article archive, and all seven complete essays (nine pages total). The Home, Church, and Community decorative section and its three illustrations were deliberately removed at the user’s request. No other original visible page text was deleted or replaced. All original link targets, section IDs, contact details, social links, newsletter fields, and form settings are retained. The homepage adds a skip link and a Weekly Letter shortcut.
 
 All 18 unique image files referenced by the original pages are present and byte-for-byte identical to the originals. The visible shield and favicon were intentionally replaced with the previously discussed preview cutout; the old emblem files remain in the repository. Colors, typography, decorative framing, and layout are the requested design changes.
 
@@ -20,6 +20,8 @@ The original site’s robots.txt and sitemap.xml both returned 404; they reveale
 | Images and loaded fonts | Passed |
 | Horizontal overflow and duplicate element IDs | None found |
 | Mobile menu opening, closing, and article navigation | Passed |
+| Escape key and outside-tap menu dismissal | Passed |
+| Mobile side-by-side action buttons and 16px newsletter inputs | Passed |
 | Homepage → archive → complete essay → archive | Passed |
 | Newsletter required names and email | Passed |
 | Newsletter email format and consent validation | Passed |
