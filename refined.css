@@ -34,8 +34,84 @@ h1,h2,h3,blockquote,.footer-title{font-family:Georgia,'Times New Roman',serif;fo
 @font-face{font-family:StonewallWordmark;src:url('/assets/fonts/unifrakturmaguntia-latin-400-normal.woff2') format('woff2');font-weight:400;font-display:swap}
 @font-face{font-family:StonewallSerif;src:url('/assets/fonts/cormorant-garamond-latin-400-normal.woff2') format('woff2');font-weight:400;font-display:swap}
 @font-face{font-family:StonewallSerif;src:url('/assets/fonts/cormorant-garamond-latin-600-normal.woff2') format('woff2');font-weight:600;font-display:swap}
-.brand span,.footer-title{font-family:StonewallWordmark,Georgia,serif;font-weight:400;color:var(--stonewall-red);font-size:1.9rem;letter-spacing:0}.brand img{width:36px;height:52px;object-fit:contain;border:0;padding:0;background:none}.footer-title{color:var(--stonewall-white)}
+.site-header .brand span,.footer-title{font-family:StonewallWordmark,Georgia,serif;font-weight:400;color:var(--stonewall-red);font-size:1.9rem;letter-spacing:0}.brand img{width:36px;height:52px;object-fit:contain;border:0;padding:0;background:none}.footer-title{color:var(--stonewall-white)}
 h1,h2,h3,.hero-copy h1,blockquote{font-family:StonewallSerif,Georgia,serif;font-weight:600;letter-spacing:-.025em}.hero-logo-wrap{background:none;box-shadow:none;border:0;border-radius:0;padding:0;width:100%;max-width:350px;justify-self:end}.hero-logo,.hero-shield{width:100%;max-height:440px;object-fit:contain;border:0;outline:0;border-radius:0;box-shadow:none;filter:none;mix-blend-mode:normal}.hero-logo-wrap:before,.hero-logo-wrap:after,.site-header:before,.site-header:after{display:none}.hero-grid{grid-template-columns:1.65fr .85fr;gap:64px}.hero{padding:70px 0 80px}.hero .button-secondary{color:var(--stonewall-white);border:1px solid var(--stonewall-gold);background:none}.hero .button-primary{background:var(--stonewall-red)!important;color:var(--stonewall-white)!important;border-color:var(--stonewall-gold)}.hero .button-primary:hover{background:var(--stonewall-red)!important;filter:brightness(1.1)}.hero-actions{gap:16px}.hero-copy h1{font-size:clamp(2.7rem,4.8vw,4.5rem)}.section-kicker{letter-spacing:.16em}.nav-cta{box-shadow:none}.legacy-portrait-section:before,.legacy-portrait-section:after{display:none}
-@media(max-width:1100px){.brand span{font-size:1.7rem}}
+@media(max-width:1100px){.site-header .brand span{font-size:1.7rem}}
 @media(max-width:800px){.hero-grid{grid-template-columns:1fr;gap:32px}.hero-logo-wrap{justify-self:center;max-width:180px}.hero-logo{max-height:260px}.hero{padding:46px 0 54px}.hero-copy h1{font-size:2.9rem}}
-@media(max-width:520px){.brand span{font-size:1.28rem}.brand{gap:10px}.brand img{width:27px;height:40px}.hero-copy h1{font-size:2.6rem}.hero-actions{flex-direction:column;align-items:stretch}}
+@media(max-width:520px){.site-header .brand span{font-size:1.28rem}.brand{gap:10px}.brand img{width:27px;height:40px}.hero-copy h1{font-size:2.6rem}.hero-actions{flex-direction:column;align-items:stretch}}
+
+/* Quiet architectural details inspired by colonial cornices and raised panels. */
+.site-header {
+  border-bottom: 1px solid var(--stonewall-gold);
+  box-shadow: 0 3px 0 var(--stonewall-white),
+              0 4px 0 color-mix(in srgb, var(--stonewall-gold) 45%, transparent),
+              0 7px 12px color-mix(in srgb, var(--stonewall-black) 5%, transparent);
+}
+
+.hero::after {
+  content: "";
+  display: block;
+  position: absolute;
+  inset: 20px;
+  border: 1px solid color-mix(in srgb, var(--stonewall-gold) 38%, transparent);
+  background: none;
+  pointer-events: none;
+}
+
+.hero::before {
+  content: "";
+  display: block;
+  position: absolute;
+  inset: auto 0 0;
+  height: 12px;
+  border: 0;
+  outline: 0;
+  background: linear-gradient(to bottom,
+    var(--stonewall-blue) 0 3px,
+    var(--stonewall-gold) 3px 4px,
+    var(--stonewall-ivory) 4px 7px,
+    var(--stonewall-white) 7px 10px,
+    var(--stonewall-gold) 10px 11px,
+    var(--stonewall-white) 11px);
+  pointer-events: none;
+}
+
+.visual-band,
+.letter-section {
+  box-shadow: inset 0 1px 0 color-mix(in srgb, var(--stonewall-gold) 55%, transparent),
+              inset 0 4px 0 var(--stonewall-white),
+              inset 0 5px 0 color-mix(in srgb, var(--stonewall-gold) 40%, transparent),
+              inset 0 -1px 0 color-mix(in srgb, var(--stonewall-gold) 55%, transparent),
+              inset 0 -5px 0 var(--stonewall-white),
+              inset 0 -6px 0 color-mix(in srgb, var(--stonewall-gold) 40%, transparent);
+}
+
+.fellowship-photo,
+.jackson-image {
+  padding: 9px;
+  background: var(--stonewall-white);
+  border: 1px solid color-mix(in srgb, var(--stonewall-gold) 55%, transparent);
+  outline: 1px solid color-mix(in srgb, var(--stonewall-gold) 35%, transparent);
+  outline-offset: -5px;
+  border-radius: 1px;
+  box-shadow: 0 3px 10px color-mix(in srgb, var(--stonewall-black) 6%, transparent);
+}
+
+.fellowship-photo img,
+.jackson-image img {
+  border-radius: 0;
+}
+
+.letter-form,
+.contact-card {
+  border: 1px solid color-mix(in srgb, var(--stonewall-gold) 70%, transparent);
+  outline: 1px solid color-mix(in srgb, var(--stonewall-gold) 35%, transparent);
+  outline-offset: -8px;
+  border-radius: 1px;
+  box-shadow: 0 3px 12px color-mix(in srgb, var(--stonewall-black) 5%, transparent);
+}
+
+@media (max-width: 520px) {
+  .hero::after { inset: 10px 8px 20px; }
+  .fellowship-photo, .jackson-image { padding: 7px; }
+}

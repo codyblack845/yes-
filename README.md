@@ -2,6 +2,8 @@
 
 ## View the redesign
 
+Updated with restrained colonial trim: a fine hero border, layered baseboard lines, and subtle molding around gathering photographs and the newsletter/contact panels.
+
 These are actual Chromium browser screenshots of the implemented website, not generated mockups. Open an image to see it at full size. The live stonewallfellowship.com website has not been modified.
 
 ### Desktop homepage
