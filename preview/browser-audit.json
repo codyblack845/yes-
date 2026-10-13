@@ -262,7 +262,7 @@
     "email_format": "passed",
     "consent": "passed",
     "submission_payload": "passed (intercepted; not sent)",
-    "delivery": "not verified"
+    "delivery": "signup notification to the site owner\u2019s Outlook inbox not verified"
   },
   "javascript_errors": [],
   "local_resource_failures": []

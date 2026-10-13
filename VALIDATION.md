@@ -30,7 +30,7 @@ The newsletter test used a reserved .invalid email address and intercepted the o
 
 ## Not confirmed
 
-Actual newsletter delivery, provider account activation, email inbox receipt, and availability of the external social profiles were not verified. The existing FormSubmit endpoint is preserved, but this cloud environment’s network policy rejected a read-only request to formsubmit.co. An authorized real signup using an address controlled by the site owner is needed to verify actual delivery.
+Actual delivery of the signup notification to stonewallfellowship1@outlook.com, provider account activation, and availability of the external social profiles were not verified. The existing FormSubmit endpoint is preserved, but this cloud environment’s network policy rejected a read-only request to formsubmit.co. An authorized test submission and confirmation from the site owner’s Outlook inbox are needed to verify actual delivery. The existing form emails a subscription request to the site owner; automated distribution of future weekly letters is outside this static website’s form, as on the original site.
 
 The redesign has not been deployed to the live Netlify site. Production deployment and a post-deployment smoke check remain separate steps. The original master logo is still needed for exact production artwork fidelity, as documented in the preview.
 
