@@ -2,7 +2,7 @@
 
 ## View the redesign
 
-Updated with restrained colonial trim: a fine hero border, layered baseboard lines, and subtle molding around gathering photographs and the newsletter/contact panels.
+Updated with a clearer serif nameplate, textured parchment and colonial tan backgrounds, and finer colonial molding, panel edges, and gold rules. White interface surfaces have been replaced with warm tones derived from the approved ivory and gold palette.
 
 These are actual Chromium browser screenshots of the implemented website, not generated mockups. Open an image to see it at full size. The live stonewallfellowship.com website has not been modified.
 
@@ -14,6 +14,10 @@ These are actual Chromium browser screenshots of the implemented website, not ge
 
 ![Gatherings browser preview](preview/gatherings.png)
 
+### Newsletter and parchment details
+
+![Newsletter browser preview](preview/newsletter.png)
+
 ### Article archive
 
 ![Article archive browser preview](preview/articles.png)
@@ -24,7 +28,7 @@ These are actual Chromium browser screenshots of the implemented website, not ge
 
 [View the complete homepage screenshot](preview/full-homepage.png)
 
-The exact approved font names were not supplied. Current fonts match the business-card style provisionally, and the shield is a derived preview cutout. Original master artwork and exact font identification are needed for final brand fidelity.
+The nameplate now uses a clearer serif treatment at the user’s request. The shield is a derived preview cutout; original master artwork is needed for exact logo fidelity at publication.
 
 ---
 
@@ -50,4 +54,4 @@ Upload this directory to a static website host, preserving the article directory
 
 ## Brand reference update
 
-The design now follows the supplied shield and business-card typography style. The website uses self-hosted UnifrakturMaguntia for the wordmark and Cormorant Garamond for headings as provisional style matches; the exact approved font names were not supplied. `assets/shield-cutout-preview.png` is a preview cutout derived from the supplied reference through image editing, not the original master artwork. Use the original master logo for final publication. The separately generated homepage image is a visual mockup, not a browser screenshot or a live website.
+The design now follows the supplied shield and business-card typography style. The website uses self-hosted Cormorant Garamond for the nameplate and headings. The earlier blackletter nameplate was replaced with this clearer serif treatment at the user’s request. `assets/shield-cutout-preview.png` is a preview cutout derived from the supplied reference through image editing, not the original master artwork. Use the original master logo for final publication. The separately generated homepage image is a visual mockup, not a browser screenshot or a live website.
