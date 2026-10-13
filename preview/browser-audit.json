@@ -1,0 +1,269 @@
+{
+  "page_viewport_checks": 36,
+  "pages": [
+    {
+      "path": "/",
+      "width": 1440,
+      "status": 200,
+      "images": "passed",
+      "layout": "passed"
+    },
+    {
+      "path": "/articles/",
+      "width": 1440,
+      "status": 200,
+      "images": "passed",
+      "layout": "passed"
+    },
+    {
+      "path": "/articles/education-in-early-america-part-ii/",
+      "width": 1440,
+      "status": 200,
+      "images": "passed",
+      "layout": "passed"
+    },
+    {
+      "path": "/articles/education-in-early-america-part-i/",
+      "width": 1440,
+      "status": 200,
+      "images": "passed",
+      "layout": "passed"
+    },
+    {
+      "path": "/articles/the-context-of-crossing-the-delaware/",
+      "width": 1440,
+      "status": 200,
+      "images": "passed",
+      "layout": "passed"
+    },
+    {
+      "path": "/articles/a-time-to-build/",
+      "width": 1440,
+      "status": 200,
+      "images": "passed",
+      "layout": "passed"
+    },
+    {
+      "path": "/articles/robert-e-lee-americas-second-washington/",
+      "width": 1440,
+      "status": 200,
+      "images": "passed",
+      "layout": "passed"
+    },
+    {
+      "path": "/articles/why-start-this-group/",
+      "width": 1440,
+      "status": 200,
+      "images": "passed",
+      "layout": "passed"
+    },
+    {
+      "path": "/articles/why-stonewall/",
+      "width": 1440,
+      "status": 200,
+      "images": "passed",
+      "layout": "passed"
+    },
+    {
+      "path": "/",
+      "width": 768,
+      "status": 200,
+      "images": "passed",
+      "layout": "passed"
+    },
+    {
+      "path": "/articles/",
+      "width": 768,
+      "status": 200,
+      "images": "passed",
+      "layout": "passed"
+    },
+    {
+      "path": "/articles/education-in-early-america-part-ii/",
+      "width": 768,
+      "status": 200,
+      "images": "passed",
+      "layout": "passed"
+    },
+    {
+      "path": "/articles/education-in-early-america-part-i/",
+      "width": 768,
+      "status": 200,
+      "images": "passed",
+      "layout": "passed"
+    },
+    {
+      "path": "/articles/the-context-of-crossing-the-delaware/",
+      "width": 768,
+      "status": 200,
+      "images": "passed",
+      "layout": "passed"
+    },
+    {
+      "path": "/articles/a-time-to-build/",
+      "width": 768,
+      "status": 200,
+      "images": "passed",
+      "layout": "passed"
+    },
+    {
+      "path": "/articles/robert-e-lee-americas-second-washington/",
+      "width": 768,
+      "status": 200,
+      "images": "passed",
+      "layout": "passed"
+    },
+    {
+      "path": "/articles/why-start-this-group/",
+      "width": 768,
+      "status": 200,
+      "images": "passed",
+      "layout": "passed"
+    },
+    {
+      "path": "/articles/why-stonewall/",
+      "width": 768,
+      "status": 200,
+      "images": "passed",
+      "layout": "passed"
+    },
+    {
+      "path": "/",
+      "width": 390,
+      "status": 200,
+      "images": "passed",
+      "layout": "passed"
+    },
+    {
+      "path": "/articles/",
+      "width": 390,
+      "status": 200,
+      "images": "passed",
+      "layout": "passed"
+    },
+    {
+      "path": "/articles/education-in-early-america-part-ii/",
+      "width": 390,
+      "status": 200,
+      "images": "passed",
+      "layout": "passed"
+    },
+    {
+      "path": "/articles/education-in-early-america-part-i/",
+      "width": 390,
+      "status": 200,
+      "images": "passed",
+      "layout": "passed"
+    },
+    {
+      "path": "/articles/the-context-of-crossing-the-delaware/",
+      "width": 390,
+      "status": 200,
+      "images": "passed",
+      "layout": "passed"
+    },
+    {
+      "path": "/articles/a-time-to-build/",
+      "width": 390,
+      "status": 200,
+      "images": "passed",
+      "layout": "passed"
+    },
+    {
+      "path": "/articles/robert-e-lee-americas-second-washington/",
+      "width": 390,
+      "status": 200,
+      "images": "passed",
+      "layout": "passed"
+    },
+    {
+      "path": "/articles/why-start-this-group/",
+      "width": 390,
+      "status": 200,
+      "images": "passed",
+      "layout": "passed"
+    },
+    {
+      "path": "/articles/why-stonewall/",
+      "width": 390,
+      "status": 200,
+      "images": "passed",
+      "layout": "passed"
+    },
+    {
+      "path": "/",
+      "width": 320,
+      "status": 200,
+      "images": "passed",
+      "layout": "passed"
+    },
+    {
+      "path": "/articles/",
+      "width": 320,
+      "status": 200,
+      "images": "passed",
+      "layout": "passed"
+    },
+    {
+      "path": "/articles/education-in-early-america-part-ii/",
+      "width": 320,
+      "status": 200,
+      "images": "passed",
+      "layout": "passed"
+    },
+    {
+      "path": "/articles/education-in-early-america-part-i/",
+      "width": 320,
+      "status": 200,
+      "images": "passed",
+      "layout": "passed"
+    },
+    {
+      "path": "/articles/the-context-of-crossing-the-delaware/",
+      "width": 320,
+      "status": 200,
+      "images": "passed",
+      "layout": "passed"
+    },
+    {
+      "path": "/articles/a-time-to-build/",
+      "width": 320,
+      "status": 200,
+      "images": "passed",
+      "layout": "passed"
+    },
+    {
+      "path": "/articles/robert-e-lee-americas-second-washington/",
+      "width": 320,
+      "status": 200,
+      "images": "passed",
+      "layout": "passed"
+    },
+    {
+      "path": "/articles/why-start-this-group/",
+      "width": 320,
+      "status": 200,
+      "images": "passed",
+      "layout": "passed"
+    },
+    {
+      "path": "/articles/why-stonewall/",
+      "width": 320,
+      "status": 200,
+      "images": "passed",
+      "layout": "passed"
+    }
+  ],
+  "internal_link_and_anchor_checks": 115,
+  "mobile_navigation": "passed",
+  "article_navigation": "passed",
+  "newsletter": {
+    "required_fields": "passed",
+    "email_format": "passed",
+    "consent": "passed",
+    "submission_payload": "passed (intercepted; not sent)",
+    "delivery": "not verified"
+  },
+  "javascript_errors": [],
+  "local_resource_failures": []
+}

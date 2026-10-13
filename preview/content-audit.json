@@ -1,0 +1,99 @@
+{
+  "pages": [
+    "/",
+    "/articles/",
+    "/articles/education-in-early-america-part-ii/",
+    "/articles/education-in-early-america-part-i/",
+    "/articles/the-context-of-crossing-the-delaware/",
+    "/articles/a-time-to-build/",
+    "/articles/robert-e-lee-americas-second-washington/",
+    "/articles/why-start-this-group/",
+    "/articles/why-stonewall/"
+  ],
+  "page_count": 9,
+  "unique_original_image_files_verified": 18,
+  "pages_audited": [
+    {
+      "page": "index.html",
+      "original_words": 675,
+      "redesign_words": 681,
+      "original_links": 18,
+      "original_images": 17,
+      "approved_logo_replacements": 2,
+      "forms_preserved": 1
+    },
+    {
+      "page": "articles/index.html",
+      "original_words": 520,
+      "redesign_words": 520,
+      "original_links": 28,
+      "original_images": 2,
+      "approved_logo_replacements": 1,
+      "forms_preserved": 0
+    },
+    {
+      "page": "articles/education-in-early-america-part-ii/index.html",
+      "original_words": 2256,
+      "redesign_words": 2256,
+      "original_links": 15,
+      "original_images": 2,
+      "approved_logo_replacements": 1,
+      "forms_preserved": 0
+    },
+    {
+      "page": "articles/education-in-early-america-part-i/index.html",
+      "original_words": 1796,
+      "redesign_words": 1796,
+      "original_links": 15,
+      "original_images": 2,
+      "approved_logo_replacements": 1,
+      "forms_preserved": 0
+    },
+    {
+      "page": "articles/the-context-of-crossing-the-delaware/index.html",
+      "original_words": 703,
+      "redesign_words": 703,
+      "original_links": 15,
+      "original_images": 2,
+      "approved_logo_replacements": 1,
+      "forms_preserved": 0
+    },
+    {
+      "page": "articles/a-time-to-build/index.html",
+      "original_words": 308,
+      "redesign_words": 308,
+      "original_links": 15,
+      "original_images": 1,
+      "approved_logo_replacements": 1,
+      "forms_preserved": 0
+    },
+    {
+      "page": "articles/robert-e-lee-americas-second-washington/index.html",
+      "original_words": 1212,
+      "redesign_words": 1212,
+      "original_links": 15,
+      "original_images": 2,
+      "approved_logo_replacements": 1,
+      "forms_preserved": 0
+    },
+    {
+      "page": "articles/why-start-this-group/index.html",
+      "original_words": 530,
+      "redesign_words": 530,
+      "original_links": 15,
+      "original_images": 1,
+      "approved_logo_replacements": 1,
+      "forms_preserved": 0
+    },
+    {
+      "page": "articles/why-stonewall/index.html",
+      "original_words": 677,
+      "redesign_words": 677,
+      "original_links": 15,
+      "original_images": 2,
+      "approved_logo_replacements": 1,
+      "forms_preserved": 0
+    }
+  ],
+  "issues": []
+}

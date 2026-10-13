@@ -46,6 +46,8 @@ Open the root page or `/articles/` using your development browser. The site is s
 
 ## Validation
 
+[Read the complete content and functional audit](VALIDATION.md). All nine original pages retain their text and links; 36 page/viewport checks and 115 internal link/anchor checks passed. Real newsletter delivery remains unverified.
+
 Verified homepage rendering at desktop and mobile widths, image loading, mobile menu opening and closing, required newsletter fields, and all seven article pages. Newsletter delivery was not tested, as doing so would send a real signup. The original FormSubmit endpoint is retained.
 
 ## Deployment
