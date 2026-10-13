@@ -1,0 +1,10 @@
+{
+  "zip_integrity": "passed",
+  "packaged_files": 38,
+  "source_byte_comparison": "passed",
+  "homepage_at_zip_root": true,
+  "page_http_checks": 9,
+  "browser_smoke_check": "passed",
+  "excluded": "Git metadata, screenshots, reports, build tools, and test notifications",
+  "deployed_to_netlify": false
+}

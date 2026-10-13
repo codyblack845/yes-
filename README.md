@@ -34,6 +34,12 @@ The nameplate now uses a clearer serif treatment at the user’s request. The sh
 
 A responsive editorial redesign of stonewallfellowship.com. Preserves the public homepage content, all seven essays, original imagery, newsletter form destination, email address, and social links captured on October 12, 2026.
 
+## Netlify upload
+
+[Download the prepared Netlify upload ZIP](https://github.com/codyblack845/yes-/raw/refs/heads/stonewall-preview/netlify-upload.zip). Extract it and upload the folder containing `index.html` to your existing Netlify project’s **Deploys** area when ready to publish. No build command or dependency installation is required.
+
+[Read the upload instructions](NETLIFY.md). The clean package excludes screenshots, reports, Git metadata, setup tools, and test-submission data.
+
 ## Run locally
 
 No dependency installation or build step is required. From this checkout:
